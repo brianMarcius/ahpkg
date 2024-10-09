@@ -1,0 +1,464 @@
+CRITICAL - 2023-11-08 06:50:34 --> Call to a member function view() on null
+in APPPATH/Views/dashboard.php on line 2.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Controllers/DashboardController.php(11): view('dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 06:52:27 --> Call to a member function view() on null
+in APPPATH/Views/dashboard.php on line 2.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Controllers/DashboardController.php(11): view('dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 06:52:51 --> Call to a member function view() on null
+in APPPATH/Views/dashboard.php on line 2.
+ 1 SYSTEMPATH/View/View.php(228): include()
+ 2 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Controllers/DashboardController.php(11): view('dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 06:56:49 --> Invalid file: "header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('header', [], true)
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Controllers/DashboardController.php(11): view('dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 07:03:17 --> Invalid file: "header.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH/View/View.php(244): CodeIgniter\View\View->render('header', [], true)
+ 3 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Controllers/DashboardController.php(11): view('dashboard')
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 08:23:25 --> "toolbar" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH/Filters/Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize('dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 08:23:39 --> "toolbar" filter must have a matching alias defined.
+in SYSTEMPATH/Filters/Filters.php on line 580.
+ 1 SYSTEMPATH/Filters/Filters.php(580): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('toolbar')
+ 2 SYSTEMPATH/Filters/Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+ 3 SYSTEMPATH/Filters/Filters.php(174): CodeIgniter\Filters\Filters->initialize('dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+ERROR - 2023-11-08 14:12:03 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'headmaster_eval...', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-08 14:12:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'headmaster_eval...', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-08 14:14:21 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'headmaster_eval...', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-08 14:18:46 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:25:39 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:25:56 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:26:09 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:29:48 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:37:41 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'headmaster_eval...', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-08 14:38:33 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:38:45 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', '', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Config.php(110): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/CreateDatabase.php(134): CodeIgniter\Database\Config::forge()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:create', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#7 {main}
+ERROR - 2023-11-08 14:59:10 --> mysqli_sql_exception: Unknown column 'address' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Database/Seeds/SchoolSeeder.php(26): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/Seeder.php(146): App\Database\Seeds\SchoolSeeder->run()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Database/Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CLI/Console.php(46): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2023-11-08 15:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-08 15:06:09 --> mysqli_sql_exception: Unknown column 'usersname' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-11-08 15:06:09 --> Unknown column 'usersname' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usersname` = :usersname:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-08 15:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-08 15:06:56 --> mysqli_sql_exception: Unknown column 'usersname' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+CRITICAL - 2023-11-08 15:06:56 --> Unknown column 'usersname' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `usersname` = :usersname:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-08 15:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 15:14:42 --> Undefined index: user_id
+in APPPATH/Controllers/AuthController.php on line 28.
+ 1 APPPATH/Controllers/AuthController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: user_id', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/AuthController.php', 28, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-08 15:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-08 15:19:00 --> Class 'Config\App\Filters\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 15:19:01 --> Class 'Config\App\Filters\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 15:20:35 --> Class 'Config\app\Filters\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+CRITICAL - 2023-11-08 15:20:46 --> Class 'app\Filters\Auth' not found
+in SYSTEMPATH/Filters/Filters.php on line 177.
+ 1 SYSTEMPATH/CodeIgniter.php(474): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 2 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-08 15:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-08 15:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

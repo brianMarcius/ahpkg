@@ -1,0 +1,957 @@
+INFO - 2023-11-14 03:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-14 03:06:06 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('127.0.0.1', 'root', '', 'headmaster_eval...', 3306, '', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-14 03:06:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+in SYSTEMPATH/Database/BaseConnection.php on line 428.
+ 1 SYSTEMPATH/Database/BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH/Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH/Controllers/AuthController.php(21): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\AuthController->auth()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:11:05 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:12:01 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:12:02 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:12:03 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:18:18 --> Undefined index: level
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:18:19 --> Undefined index: level
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:18:20 --> Undefined index: level
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_form.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_form.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_form', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(37): view('transactions/evaluation/evaluation_form', [...])
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->create()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:18:46 --> Undefined index: level
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/transactions/evaluation/evaluation_list.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/transactions/evaluation/evaluation_list.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('transactions/evaluation/evaluation_list', [], true)
+ 9 APPPATH/Controllers/EvaluationController.php(20): view('transactions/evaluation/evaluation_list')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 03:18:47 --> Undefined index: level
+in APPPATH/Views/layouts/sidebar.php on line 18.
+ 1 APPPATH/Views/layouts/sidebar.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 18, [])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/setting/question/question_list.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/question/question_list.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('setting/question/question_list', [], true)
+ 9 APPPATH/Controllers/QuestionController.php(20): view('setting/question/question_list')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\QuestionController->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuestionController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:19:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:19:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:19:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:20:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:20:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:20:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:20:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:20:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:20:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:22:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:22:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:22:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:22:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 03:25:07 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(136): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 03:25:47 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(136): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:25:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:25:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:27:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:27:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:27:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:28:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:28:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:28:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:29:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:29:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:29:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:29:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:42:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:42:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:42:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:42:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:45:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 03:45:04 --> Undefined variable: image_validation
+in APPPATH/Controllers/SchoolController.php on line 44.
+ 1 APPPATH/Controllers/SchoolController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: image_validation', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php', 44, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:45:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 03:45:52 --> "val-logo" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 319.
+ 1 SYSTEMPATH/Validation/Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('val-logo')
+ 2 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('0', '0', null, [...], [...])
+ 3 APPPATH/Controllers/SchoolController.php(46): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:46:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 03:46:33 --> "val-logo" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 319.
+ 1 SYSTEMPATH/Validation/Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('val-logo')
+ 2 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('0', '0', null, [...], [...])
+ 3 APPPATH/Controllers/SchoolController.php(46): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 03:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:47:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:47:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:47:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:47:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:47:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:51:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:51:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:51:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:51:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:51:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:54:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:55:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:55:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:55:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 03:55:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:55:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 03:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 03:56:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:01:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:04:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:06:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:06:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 04:06:18 --> An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\Parser\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpu1HOYv
+in SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php on line 640.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\\Parser\\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpu1HOYv', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Parser/Parser.php', 640, [...])
+ 2 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(640): trigger_error('An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\\Parser\\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpu1HOYv', 512)
+ 3 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(575): Kint\Parser\Parser->applyPlugins(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\InstanceValue), 2)
+ 4 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(138): Kint\Parser\Parser->parseObject(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 5 SYSTEMPATH/ThirdParty/Kint/Kint.php(285): Kint\Parser\Parser->parse(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 6 SYSTEMPATH/ThirdParty/Kint/Kint.php(268): Kint\Kint->dumpVar(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 7 SYSTEMPATH/ThirdParty/Kint/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+ 8 SYSTEMPATH/Helpers/kint_helper.php(29): Kint\Kint::dump(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 9 APPPATH/Controllers/SchoolController.php(75): dd(Object(CodeIgniter\HTTP\Files\UploadedFile))
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 04:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:09:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 04:09:15 --> An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\Parser\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpWqYBM9
+in SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php on line 640.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\\Parser\\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpWqYBM9', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Parser/Parser.php', 640, [...])
+ 2 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(640): trigger_error('An exception (RuntimeException) was thrown in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/ThirdParty/Kint/Zval/Representation/SplFileInfoRepresentation.php on line 61 while executing Kint Parser Plugin "Kint\\Parser\\SplFileInfoPlugin". Error message: SplFileInfo::getPerms(): stat failed for /private/var/folders/c2/l_s94kf521d36f27w9nv4p040000gn/T/phpWqYBM9', 512)
+ 3 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(575): Kint\Parser\Parser->applyPlugins(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\InstanceValue), 2)
+ 4 SYSTEMPATH/ThirdParty/Kint/Parser/Parser.php(138): Kint\Parser\Parser->parseObject(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 5 SYSTEMPATH/ThirdParty/Kint/Kint.php(285): Kint\Parser\Parser->parse(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 6 SYSTEMPATH/ThirdParty/Kint/Kint.php(268): Kint\Kint->dumpVar(Object(CodeIgniter\HTTP\Files\UploadedFile), Object(Kint\Zval\Value))
+ 7 SYSTEMPATH/ThirdParty/Kint/Kint.php(575): Kint\Kint->dumpAll([...], [...])
+ 8 SYSTEMPATH/Helpers/kint_helper.php(29): Kint\Kint::dump(Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 9 APPPATH/Controllers/SchoolController.php(75): dd(Object(CodeIgniter\HTTP\Files\UploadedFile))
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 04:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:09:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:11:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 04:11:58 --> Could not move file "phpFAtmx6" to "/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/writable/../public/assets/images/schools/". Reason: 
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 158.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(158): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFAtmx6', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/writable/../public/assets/images/schools/', '')
+ 2 APPPATH/Controllers/SchoolController.php(73): CodeIgniter\HTTP\Files\UploadedFile->move('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/writable/../public/assets/images/schools/', 'SMPN 8 Semarang.png')
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 04:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:12:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:13:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:14:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:16:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:17:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:17:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:18:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:18:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:19:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:19:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:22:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 04:22:52 --> Undefined variable: validate
+in APPPATH/Controllers/SchoolController.php on line 76.
+ 1 APPPATH/Controllers/SchoolController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: validate', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php', 76, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 04:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 04:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:27:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 04:28:01 --> Trying to access array offset on value of type null
+in APPPATH/Views/setting/question/question_form_edit.php on line 32.
+ 1 APPPATH/Views/setting/question/question_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/question/question_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/question/question_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('setting/question/question_form_edit', [], true)
+ 5 APPPATH/Controllers/QuestionController.php(108): view('setting/question/question_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\QuestionController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\QuestionController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 04:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:32:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 04:32:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 04:32:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 04:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 05:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 06:37:35 --> Class 'App\Controllers\Questions' not found
+in APPPATH/Controllers/EvaluationController.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 06:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 06:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:02:10 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:02:20 --> Undefined index: question
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: question', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:02:32 --> Undefined index: question
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: question', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:02:38 --> Undefined offset: 0
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:03:04 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:03:23 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:04:13 --> Undefined index: question
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: question', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:04:36 --> Array to string conversion
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:04:55 --> Cannot use [] for reading
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:05:05 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:09:13 --> Undefined index: question
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: question', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:09:25 --> Undefined offset: 0
+in APPPATH/Controllers/EvaluationController.php on line 52.
+ 1 APPPATH/Controllers/EvaluationController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 52, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:12:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:13:43 --> Undefined variable: errorMessage
+in APPPATH/Controllers/EvaluationController.php on line 67.
+ 1 APPPATH/Controllers/EvaluationController.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errorMessage', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 67, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:16:40 --> json_decode() expects parameter 1 to be string, array given
+in APPPATH/Controllers/EvaluationController.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() expects parameter 1 to be string, array given', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 70, [...])
+ 2 APPPATH/Controllers/EvaluationController.php(70): json_decode([...])
+ 3 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:17:08 --> Undefined index: question
+in APPPATH/Controllers/EvaluationController.php on line 70.
+ 1 APPPATH/Controllers/EvaluationController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: question', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 70, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:27:38 --> Use of undefined constant question - assumed 'question' (this will throw an Error in a future version of PHP)
+in APPPATH/Controllers/EvaluationController.php on line 70.
+ 1 APPPATH/Controllers/EvaluationController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant question - assumed \'question\' (this will throw an Error in a future version of PHP)', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 70, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:27:53 --> Undefined offset: 0
+in APPPATH/Controllers/EvaluationController.php on line 70.
+ 1 APPPATH/Controllers/EvaluationController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 70, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:28:01 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 70.
+ 1 APPPATH/Controllers/EvaluationController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 70, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-14 07:29:22 --> Trying to get property 'question' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 71.
+ 1 APPPATH/Controllers/EvaluationController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'question\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 71, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 07:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 07:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:03:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:03:39 --> Allowed fields must be specified for model: "App\Models\Evaluations"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Evaluations')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/EvaluationController.php(79): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:04:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:04:28 --> Trying to get property 'score' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 95.
+ 1 APPPATH/Controllers/EvaluationController.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'score\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 95, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:05:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:05:00 --> Call to undefined method App\Models\Options::getResult
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/EvaluationController.php(96): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:05:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2023-11-14 08:05:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `maxscore`) AS `score as maxscore`
+FROM `options`
+WHERE `question_id` = '9'' at line 1 in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT MAX(`sco...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(`sco...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(`sco...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`sco...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php(96): CodeIgniter\Model->__call('get', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-14 08:05:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as `maxscore`) AS `score as maxscore`
+FROM `options`
+WHERE `question_id` = '9'' at line 1
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT MAX(`score` as `maxscore`) AS `score as maxscore`
+FROM `options`
+WHERE `question_id` = :question_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/EvaluationController.php(96): CodeIgniter\Model->__call('get', [])
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:05:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:05:43 --> Trying to get property 'maxscore' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 97.
+ 1 APPPATH/Controllers/EvaluationController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'maxscore\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 97, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:05:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:05:51 --> Trying to get property 'score' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 97.
+ 1 APPPATH/Controllers/EvaluationController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'score\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 97, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:06:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:06:01 --> Undefined index: score
+in APPPATH/Controllers/EvaluationController.php on line 97.
+ 1 APPPATH/Controllers/EvaluationController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: score', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 97, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:06:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:06:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:10:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:10:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:10:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:10:40 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/EvaluationController.php on line 97.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:10:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:11:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2023-11-14 08:11:18 --> Trying to get property 'score' of non-object
+in APPPATH/Controllers/EvaluationController.php on line 97.
+ 1 APPPATH/Controllers/EvaluationController.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'score\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/EvaluationController.php', 97, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\EvaluationController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EvaluationController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-14 08:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:11:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:11:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:13:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:17:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:24:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:24:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:24:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:25:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:25:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:30:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:30:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:30:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:30:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2023-11-14 08:30:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:30:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:32:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:32:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 08:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:34:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2023-11-14 08:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-11-14 08:34:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();

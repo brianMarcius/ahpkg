@@ -1,0 +1,721 @@
+INFO - 2023-11-10 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 14:34:41 --> Undefined variable: base_url
+in APPPATH/Views/layouts/sidebar.php on line 9.
+ 1 APPPATH/Views/layouts/sidebar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: base_url', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php', 9, [])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/layouts/sidebar.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(469): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 5 APPPATH/Views/dashboard.php(2): CodeIgniter\View\View->include('layouts/sidebar')
+ 6 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/dashboard.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('dashboard', [], true)
+ 9 APPPATH/Controllers/DashboardController.php(12): view('dashboard')
+10 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\DashboardController->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 14:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:57:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 14:57:33 --> Invalid file: "master/dashboard.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/dashboard.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('master/dashboard', [], true)
+ 3 APPPATH/Controllers/UserController.php(11): view('master/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 14:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 14:58:01 --> Invalid file: "master/user_list.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/user_list.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('master/user_list', [], true)
+ 3 APPPATH/Controllers/UserController.php(11): view('master/user_list')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 14:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 14:58:10 --> Invalid file: "master/user_list.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/user_list.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('master/user_list', [], true)
+ 3 APPPATH/Controllers/UserController.php(11): view('master/user_list')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 14:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 14:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 15:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:36:10 --> Class 'App\Controllers\Services' not found
+in APPPATH/Controllers/UserController.php on line 23.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:36:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::leftjoin()
+in APPPATH/Models/UserDatatable.php on line 23.
+ 1 APPPATH/Controllers/UserController.php(25): App\Models\UserDatatable->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:37:08 --> Trying to access array offset on value of type null
+in APPPATH/Models/UserDatatable.php on line 31.
+ 1 APPPATH/Models/UserDatatable.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php', 31, [...])
+ 2 APPPATH/Models/UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 16:40:25 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 16:40:25 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+ORDER BY `name` ASC
+ LIMIT 10', [], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:41:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 16:45:53 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 16:45:53 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 16:48:32 --> mysqli_sql_exception: Unknown column 'fusers.ullname' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 16:48:32 --> Unknown column 'fusers.ullname' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `fusers`.`ullname` LIKE :fusers.ullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )
+ORDER BY `users`.`id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 16:48:54 --> mysqli_sql_exception: Unknown column 'levels.level' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 16:48:54 --> Unknown column 'levels.level' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:55:58 --> Undefined property: stdClass::$level
+in APPPATH/Controllers/UserController.php on line 39.
+ 1 APPPATH/Controllers/UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 39, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 16:56:38 --> mysqli_sql_exception: Unknown column 'levelname' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `usernam...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 16:56:38 --> Unknown column 'levelname' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `username`, `fullname`, `email`, `levels`.`level` as `levelname`, `schools`.`schoolname`
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levelname` LIKE :levelname: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )
+ORDER BY `users`.`id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 16:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 16:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 16:59:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH/Models/UserDatatable.php on line 23.
+ 1 APPPATH/Controllers/UserController.php(25): App\Models\UserDatatable->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:02:45 --> Undefined property: stdClass::$level
+in APPPATH/Controllers/UserController.php on line 39.
+ 1 APPPATH/Controllers/UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$level', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 39, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:03:44 --> mysqli_sql_exception: Unknown column 'levelname' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `users`....', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:03:44 --> Unknown column 'levelname' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`username`, `users`.`fullname`, `users`.`email`, `levels`.`level` as `levelname`, `schools`.`schoolname`
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levelname` LIKE :levelname: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )
+ORDER BY `users`.`id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:04:13 --> mysqli_sql_exception: Column 'level' in where clause is ambiguous in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `users`....', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:04:13 --> Column 'level' in where clause is ambiguous
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`id`, `users`.`username`, `users`.`fullname`, `users`.`email`, `levels`.`level` as `levelname`, `schools`.`schoolname`
+FROM `users`
+LEFT JOIN `schools` ON `users`.`school_id`=`schools`.`id`
+JOIN `levels` ON `users`.`level`=`levels`.`id`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `level` LIKE :level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )
+ORDER BY `users`.`id` DESC
+ LIMIT 10', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/UserController.php(28): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:04:30 --> mysqli_sql_exception: Unknown column 'levels.level' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:04:30 --> Unknown column 'levels.level' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:05:43 --> mysqli_sql_exception: Unknown column 'levels.level' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:05:43 --> Unknown column 'levels.level' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:10:12 --> mysqli_sql_exception: Unknown column 'levels.level' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:10:12 --> Unknown column 'levels.level' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-10 17:11:39 --> mysqli_sql_exception: Unknown column 'levels.level' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\UserController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-10 17:11:39 --> Unknown column 'levels.level' in 'where clause'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE   (
+`users`.`username` LIKE :users.username: ESCAPE \'!\'
+OR  `users`.`fullname` LIKE :users.fullname: ESCAPE \'!\'
+OR  `users`.`email` LIKE :users.email: ESCAPE \'!\'
+OR  `levels`.`level` LIKE :levels.level: ESCAPE \'!\'
+OR  `schools`.`schoolname` LIKE :schools.schoolname: ESCAPE \'!\'
+ )', [...], false)
+ 2 APPPATH/Models/UserDatatable.php(64): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/UserController.php(48): App\Models\UserDatatable->countFiltered()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:24:02 --> Undefined property: App\Controllers\UserController::$db
+in APPPATH/Controllers/UserController.php on line 20.
+ 1 APPPATH/Controllers/UserController.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\UserController::$db', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 20, [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:26:35 --> Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php on line 914 and exactly 1 expected
+in APPPATH/Controllers/UserController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\UserController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:26:47 --> Cannot call constructor
+in APPPATH/Controllers/UserController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(914): App\Controllers\UserController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:26:54 --> Undefined property: mysqli::$id
+in APPPATH/Views/masters/users/user_form.php on line 71.
+ 1 APPPATH/Views/masters/users/user_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$id', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 71, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(26): view('masters/users/user_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:28:13 --> Undefined property: mysqli::$id
+in APPPATH/Views/masters/users/user_form.php on line 72.
+ 1 APPPATH/Views/masters/users/user_form.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$id', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(26): view('masters/users/user_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:28:20 --> Undefined property: mysqli::$id
+in APPPATH/Views/masters/users/user_form.php on line 72.
+ 1 APPPATH/Views/masters/users/user_form.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$id', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 72, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(26): view('masters/users/user_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:29:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+in APPPATH/Controllers/UserController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-10 17:30:50 --> Call to undefined function App\Controllers\getResult()
+in APPPATH/Controllers/UserController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-10 17:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-10 17:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

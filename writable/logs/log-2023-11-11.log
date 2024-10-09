@@ -1,0 +1,1200 @@
+INFO - 2023-11-11 00:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 00:53:09 --> Undefined variable: request
+in APPPATH/Controllers/UserController.php on line 39.
+ 1 APPPATH/Controllers/UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: request', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 39, [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 00:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 00:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:01:51 --> Invalid file: "admin_create_news.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_create_news.php')
+ 2 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('admin_create_news', [], true)
+ 3 APPPATH/Controllers/UserController.php(51): view('admin_create_news')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:06:18 --> The route for "masters/users/user_list" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 62.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('masters/users/user_list')
+ 2 SYSTEMPATH/Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/UserController.php(51): redirect('masters/users/user_list')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:07:03 --> The route for "masters/users/data" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 62.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('masters/users/data')
+ 2 SYSTEMPATH/Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/UserController.php(51): redirect('masters/users/data')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:07:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:07:32 --> The route for "masters/users/list" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 62.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(62): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('masters/users/list')
+ 2 SYSTEMPATH/Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/UserController.php(51): redirect('masters/users/list')
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:15:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:15:39 --> Call to undefined method App\Models\Users::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/UserController.php(38): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:18:55 --> Object of class App\Models\Users could not be converted to int
+in APPPATH/Controllers/UserController.php on line 39.
+ 1 APPPATH/Controllers/UserController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class App\\Models\\Users could not be converted to int', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 39, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:28:11 --> Illegal string offset 'levels'
+in APPPATH/Controllers/UserController.php on line 25.
+ 1 APPPATH/Controllers/UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'levels\'', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 25, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:28:13 --> Illegal string offset 'levels'
+in APPPATH/Controllers/UserController.php on line 25.
+ 1 APPPATH/Controllers/UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'levels\'', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 25, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:36:25 --> Array to string conversion
+in APPPATH/Views/masters/users/user_form.php on line 113.
+ 1 APPPATH/Views/masters/users/user_form.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 113, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(28): view('masters/users/user_form', [...])
+ 6 APPPATH/Controllers/UserController.php(68): App\Controllers\UserController->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:48:02 --> Trying to get property 'error_message' of non-object
+in APPPATH/Views/masters/users/user_form.php on line 24.
+ 1 APPPATH/Views/masters/users/user_form.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'error_message\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(28): view('masters/users/user_form', [...])
+ 6 APPPATH/Controllers/UserController.php(68): App\Controllers\UserController->create([...])
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:48:05 --> Trying to get property 'error_message' of non-object
+in APPPATH/Views/masters/users/user_form.php on line 24.
+ 1 APPPATH/Views/masters/users/user_form.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'error_message\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(28): view('masters/users/user_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 01:48:08 --> Trying to get property 'error_message' of non-object
+in APPPATH/Views/masters/users/user_form.php on line 24.
+ 1 APPPATH/Views/masters/users/user_form.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'error_message\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php', 24, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form', [], true)
+ 5 APPPATH/Controllers/UserController.php(28): view('masters/users/user_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 01:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 01:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:10:44 --> Undefined offset: 5
+in APPPATH/Models/UserDatatable.php on line 45.
+ 1 APPPATH/Models/UserDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 5', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/UserDatatable.php', 45, [...])
+ 2 APPPATH/Models/UserDatatable.php(54): App\Models\UserDatatable->getDatatablesQuery()
+ 3 APPPATH/Controllers/UserController.php(93): App\Models\UserDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:11:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:44:33 --> Undefined variable: errorMessage
+in APPPATH/Controllers/UserController.php on line 128.
+ 1 APPPATH/Controllers/UserController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errorMessage', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 128, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:44:56 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(129): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:46:23 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:46:39 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:47:18 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:47:36 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:47:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:47:56 --> Trying to get property 'email' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 47.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'email\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 47, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:48:09 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(130): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:49:15 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:50:57 --> Trying to get property 'username' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'username\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:51:32 --> Trying to get property 'fullname' of non-object
+in APPPATH/Views/masters/users/user_form_edit.php on line 39.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'fullname\' of non-object', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 39, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('14')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:52:21 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:52:32 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:52:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:52:53 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 02:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 02:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 02:59:23 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:00:21 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:01:32 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:05:12 --> Undefined variable: id
+in APPPATH/Controllers/UserController.php on line 145.
+ 1 APPPATH/Controllers/UserController.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 145, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:05:34 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:06:42 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:06:54 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(131): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:24:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:30:36 --> Undefined variable: errorMessage
+in APPPATH/Controllers/UserController.php on line 84.
+ 1 APPPATH/Controllers/UserController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errorMessage', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/UserController.php', 84, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:37:59 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:39:12 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:39:18 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:39:27 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:40:01 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:41:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 03:41:06 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 03:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 03:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:37:27 --> Class 'App\Controllers\Services' not found
+in APPPATH/Controllers/SchoolController.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->getData()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:37:58 --> Argument 1 passed to App\Models\SchoolDatatable::__construct() must be an instance of App\Models\RequestInterface, instance of CodeIgniter\HTTP\IncomingRequest given, called in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php on line 76
+in APPPATH/Models/SchoolDatatable.php on line 17.
+ 1 APPPATH/Controllers/SchoolController.php(76): App\Models\SchoolDatatable->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-11 06:38:24 --> mysqli_sql_exception: Unknown column 'school.id' in 'field list' in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/MySQLi/Connection.php(306): mysqli->query('SELECT `school`...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `school`...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `school`...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `school`...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Models/SchoolDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php(79): App\Models\SchoolDatatable->getDatatables()
+#6 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(942): App\Controllers\SchoolController->getData()
+#7 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+#8 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/system/Commands/Server/rewrite.php(47): require_once('/Applications/X...')
+#11 {main}
+CRITICAL - 2023-11-11 06:38:24 --> Unknown column 'school.id' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `school`.`id`, `school`.`schoolname`, `school`.`npsn`, `school`.`address`, `school`.`telp`, `school`.`logo`, `users`.`fullname`, `users`.`id`
+FROM `schools`
+JOIN `users` ON `schools`.`id`=`users`.`school_id`
+ORDER BY `schools`.`id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH/Models/SchoolDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Controllers/SchoolController.php(79): App\Models\SchoolDatatable->getDatatables()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->getData()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:40:30 --> Undefined variable: levels
+in APPPATH/Views/masters/school/school_form.php on line 70.
+ 1 APPPATH/Views/masters/school/school_form.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: levels', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form.php', 70, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(26): view('masters/school/school_form', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->create()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:46:34 --> Undefined variable: errorMessage
+in APPPATH/Controllers/SchoolController.php on line 70.
+ 1 APPPATH/Controllers/SchoolController.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errorMessage', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php', 70, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:48:17 --> Allowed fields must be specified for model: "App\Models\Schools"
+in SYSTEMPATH/Model.php on line 736.
+ 1 SYSTEMPATH/Model.php(736): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Schools')
+ 2 SYSTEMPATH/BaseModel.php(763): CodeIgniter\Model->doProtectFieldsForInsert([...])
+ 3 SYSTEMPATH/Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH/Controllers/SchoolController.php(62): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->store()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:55:02 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:55:32 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:55:40 --> Undefined index: schoolname
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: schoolname', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 APPPATH/Controllers/SchoolController.php(162): App\Controllers\SchoolController->edit(null, 'NPSN is already taken')
+ 7 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->update()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:55:55 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:55:59 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:56:08 --> Undefined variable: errorMessage
+in APPPATH/Controllers/SchoolController.php on line 162.
+ 1 APPPATH/Controllers/SchoolController.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: errorMessage', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/SchoolController.php', 162, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 06:57:11 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/school/school_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/school/school_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/school/school_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/school/school_form_edit', [], true)
+ 5 APPPATH/Controllers/SchoolController.php(115): view('masters/school/school_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\SchoolController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SchoolController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 06:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 06:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 07:15:08 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 07:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 07:15:14 --> Trying to access array offset on value of type null
+in APPPATH/Views/masters/users/user_form_edit.php on line 32.
+ 1 APPPATH/Views/masters/users/user_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/masters/users/user_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('masters/users/user_form_edit', [], true)
+ 5 APPPATH/Controllers/UserController.php(149): view('masters/users/user_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\UserController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 07:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 07:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:22:29 --> Argument 1 passed to App\Models\CriteriaDatatable::__construct() must be an instance of App\Models\RequestInterface, instance of CodeIgniter\HTTP\IncomingRequest given, called in /Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Controllers/CriteriaController.php on line 61
+in APPPATH/Models/CriteriaDatatable.php on line 17.
+ 1 APPPATH/Controllers/CriteriaController.php(61): App\Models\CriteriaDatatable->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->getData()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:32:12 --> Class 'App\Controllers\Criteria' not found
+in APPPATH/Controllers/CriteriaController.php on line 93.
+ 1 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->edit('4')
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:35:09 --> Trying to access array offset on value of type null
+in APPPATH/Views/setting/criteria/criteria_form_edit.php on line 32.
+ 1 APPPATH/Views/setting/criteria/criteria_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('setting/criteria/criteria_form_edit', [], true)
+ 5 APPPATH/Controllers/CriteriaController.php(96): view('setting/criteria/criteria_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:36:15 --> Trying to access array offset on value of type null
+in APPPATH/Views/setting/criteria/criteria_form_edit.php on line 32.
+ 1 APPPATH/Views/setting/criteria/criteria_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('setting/criteria/criteria_form_edit', [], true)
+ 5 APPPATH/Controllers/CriteriaController.php(96): view('setting/criteria/criteria_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:36:19 --> "val-notes" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 319.
+ 1 SYSTEMPATH/Validation/Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('val-notes')
+ 2 SYSTEMPATH/Validation/Validation.php(197): CodeIgniter\Validation\Validation->processRules('0', '0', null, [...], [...])
+ 3 APPPATH/Controllers/CriteriaController.php(105): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->update()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-11 16:37:25 --> Trying to access array offset on value of type null
+in APPPATH/Views/setting/criteria/criteria_form_edit.php on line 32.
+ 1 APPPATH/Views/setting/criteria/criteria_form_edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', '/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php', 32, [...])
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/app/Views/setting/criteria/criteria_form_edit.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1190): CodeIgniter\View\View->render('setting/criteria/criteria_form_edit', [], true)
+ 5 APPPATH/Controllers/CriteriaController.php(96): view('setting/criteria/criteria_form_edit', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(942): App\Controllers\CriteriaController->edit('images', 'favicon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CriteriaController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/headmaster_evaluation/public/index.php')
+INFO - 2023-11-11 16:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-11 16:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
